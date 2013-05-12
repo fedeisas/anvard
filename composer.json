@@ -1,12 +1,21 @@
 {
     "name": "atticmedia/anvard",
-    "description": "",
+    "description": "HybridAuth social sign in package for Laravel 4",
+    "homepage": "https://bitbucket.org/atticmedia/anvard",
     "authors": [
         {
             "name": "Pete Otaqui",
             "email": "pete.otaqui@atticmedia.com"
+        },
+        {
+            "name": "Alaa Badran",
+            "email": "me@alaabadran.com"
         }
     ],
+    "support": {
+        "email": "devops@atticmedia.com", 
+        "issues": "https://bitbucket.org/atticmedia/anvard/issues"
+    },
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.0.x",
@@ -20,5 +29,18 @@
             "Atticmedia\\Anvard": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "keywords": [
+        "laravel",
+        "hybridauth",
+        "login",
+        "oauth",
+        "social",
+        "openid",
+        "facebook",
+        "google",
+        "twitter",
+        "yahoo"
+    ],
+    "license": "MIT"
 }
