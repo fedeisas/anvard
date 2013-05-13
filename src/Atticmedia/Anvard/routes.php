@@ -40,7 +40,7 @@ if (Config::get('anvard::routes.endpoint')) {
         array(
             'as' => 'anvard.routes.endpoint',
             function() {
-                require_once(__DIR__.'/../../../vendor/hybridauth/hybridauth/hybridauth/index.php');
+                Hybrid_Endpoint::process();
             }
         )
     );
