@@ -21,7 +21,7 @@ Anvard - HybridAuth package for Laravel 4
 7. Create the `Profile` model (using a different name if you changed the config)
 8. Set the User to have many Profiles:
 
-    ```php
+    ```
         public function profiles() {
             return $this->hasMany('Profile');
         }
@@ -29,7 +29,7 @@ Anvard - HybridAuth package for Laravel 4
 
 9. Set the Profile to belong to a User:
 
-    ```php
+    ```
         public function user() {
             return $this->belongsTo('User');
         }
