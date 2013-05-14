@@ -17,7 +17,7 @@ Anvard - HybridAuth package for Laravel 4
 3. Publish the package config `php artisan config:publish atticmedia/anvard`
 4. Add your service credentials to `app/config/packages/atticmedia/anvard/hybridauth.php`
 5. Check the `app/config/packages/atticmedia/anvard/db.php` file to see if you need to customise anything (see [Configuration](#configuration) below for help)
-6. Run the migration `php artisan migrate`
+6. Run the migration `php artisan migrate --package='atticmedia/anvard'`
 7. Create the `Profile` model (using a different name if you changed the config)
 8. Set the User to have many Profiles:
 
