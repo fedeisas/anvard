@@ -142,6 +142,7 @@ class Anvard {
         $adapter_profile = $this->getAdapterProfile();
         $ProfileModel = $this->config['db']['profilemodel'];
         $UserModel = $this->config['db']['usermodel'];
+        $user = NULL;
 
         // Have they logged in with this provider before?
         $profile_builder = call_user_func_array(
