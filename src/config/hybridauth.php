@@ -5,18 +5,17 @@ return array(
 
     'providers' => array (
 
-
-        'Facebook' => array (
+        'facebook' => array (
             'enabled' => true,
             'keys'    => array ( 'id' => '', 'secret' => '' ),
         ),
 
-        'Twitter' => array (
+        'twitter' => array (
             'enabled' => true,
             'keys'    => array ( 'key' => '', 'secret' => '' )
         ),
 
-        'LinkedIn' => array (
+        'linkedin' => array (
             'enabled' => true,
             'keys'    => array ( 'key' => '', 'secret' => '' )
         ),
