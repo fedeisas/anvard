@@ -11,7 +11,7 @@ Anvard - HybridAuth package for Laravel 4
 
 ## Installation
 
-1. Add the dependency to your composer.json file: `"atticmedia-anvard": "*"`
+1. Add the dependency to your composer.json file: `"atticmedia/anvard": "*"`
 2. Run `php composer.phar install`
 3. Add `'Atticmedia\Anvard\AnvardServiceProvider',` to your `config/app.php` file
 3. Publish the package config `php artisan config:publish atticmedia/anvard`
